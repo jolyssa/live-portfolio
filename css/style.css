@@ -41,7 +41,7 @@ TODO: transitions, skills size n paddings, projects h2 back to reg, proper descs
 }
 
 html {
-  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
   font-size: 62.5%
 }
 
@@ -52,9 +52,9 @@ body {
   margin: 0 35px;
 }
 
-header, section{
+/* header, section{
   scroll-snap-align: start;
-}
+} */
 
 section {
   margin-top: 100px;
@@ -307,6 +307,12 @@ opacity: 1.0;
 .blog .img {
   margin-top: 10px;
   width: 70%;
+  margin: 0 auto;
+}
+
+.blog .card h3, .blog .card p {
+  width: clamp(45ch, 80%, 75ch);
+  text-align: center;
   margin: 0 auto;
 }
 
