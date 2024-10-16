@@ -310,7 +310,7 @@ opacity: 1.0;
   margin: 0 auto;
 }
 
-.blog .card h3, .blog .card p {
+.blog .card p {
   width: clamp(45ch, 80%, 75ch);
   text-align: center;
   margin: 0 auto;
