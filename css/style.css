@@ -469,6 +469,7 @@ textarea {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+/*! GENERAL STYLES */
 /******* General styles for all mobile styles *******/
 @media only screen and (max-width: 767px) { 
   body{
@@ -511,110 +512,8 @@ textarea {
   }
 }
 
-
-
-/****** Extra small devices (phones, 600px and down) ******/
-@media only screen and (max-width: 600px) {
-
-  /* General Styles */
-  section {
-    width: 100%
-  }
-
-  .card {
-    padding: 20px 20px 40px 20px;
-  }
-
-  /* Nav, changing the width */
-  .menu {
-    width: 340px;
-    right: -340px;
-  }
-
-  /* Align clamped text to width of screen */
-  .about .card p,
-  .about-2,
-  .blog .card p {
-    width: 100%;
-  }
-
-
-  /* Switch centred text to left */
-  .projects p,
-  .blog .card p, .about .card p {
-    text-align: start;
-  }
-
-
-  /* Skills */
-  .about-2 .card {
-    padding: 0;
-  }
-
-  .about-2 svg {
-    width: 45px;
-    height: 45px;
-  }
-
-  .about-2 li {
-    list-style-type: none;
-    padding-left: 0;
-  }
-
-  .about-2 ul {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-
-  /* Projects */
-  .projects .card .img {
-    padding: 0;
-    width: 107%;
-  }
-
-
-  /* Blog */
-  .blog .img {
-    margin-top: 0;
-    width: 100%;
-  }
-
-
-  /* Contact */
-  .contact .card-container, .contact .card {
-    padding: 0;
-  }
-
-  .contact-form {
-    padding: 5rem 0rem;
-  }
-
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 80%; 
-    padding: 0.75rem 1rem;
-  }
-
-
-  /* Footer */
-  .footer img {
-    width: 70px;
-    height: 70px;
-  }
-}
-
-
-
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  ...
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
+/** FOR NAV **/
 @media only screen and (min-width: 768px) {
   .menu-container {
     width: 100%;
@@ -648,6 +547,109 @@ textarea {
   .menu li {
     padding: 0 20px;
   }
+}
+
+
+/****** Extra small devices (phones, 600px and down) ******/
+@media only screen and (max-width: 600px) {
+
+  /** General Styles **/
+  section {
+    width: 100%
+  }
+
+  .card {
+    padding: 20px 20px 40px 20px;
+  }
+
+  /* Nav, changing the width */
+  .menu {
+    width: 340px;
+    right: -340px;
+  }
+
+  /* Align clamped text to width of screen */
+  .about .card p,
+  .about-2,
+  .blog .card p {
+    width: 100%;
+  }
+
+
+  /* Switch centred text to left */
+  .projects p,
+  .blog .card p, .about .card p {
+    text-align: start;
+  }
+
+  /** Skills **/
+  .about-2 .card {
+    padding: 0;
+  }
+
+  .about-2 svg {
+    width: 45px;
+    height: 45px;
+  }
+
+  .about-2 li {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .about-2 ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /** Projects **/
+  .projects .card .img {
+    padding: 0;
+    width: 107%;
+  }
+
+  /** Blog **/
+  .blog .img {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  /** Contact **/
+  .contact .card-container, .contact .card {
+    padding: 0;
+  }
+
+  .contact-form {
+    padding: 5rem 0rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 80%; 
+    padding: 0.75rem 1rem;
+  }
+
+  /** Footer **/
+  .footer img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+
+/* TODO: -small devices, medium devices, */
+/* todo: then for large and extra devices, check if there are any minor adjustments that we want to add */
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  ...
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ . . .
 }
 
 
