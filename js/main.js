@@ -29,7 +29,7 @@ function type(){
     } else {
         setTimeout(erase, 1000)
     }
-}
+}k
 
 function erase(){
     if (characterIndex > 0) {

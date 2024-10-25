@@ -42,14 +42,14 @@ TODO: transitions, skills size n paddings, projects h2 back to reg, proper descs
 
 html {
   scroll-behavior: smooth;
-  font-size: 62.5%
+  font-size: 62.5%;
 }
 
 body {
   font-size: 1.6rem;
   background: var(--white-bg-bg);
   color: var(--dark-bg-text);
-  margin: 0 35px;
+  margin: 0 3.5rem;
   overflow-x: hidden;
 }
 
@@ -59,8 +59,8 @@ body {
 } */
 
 section {
-  margin-top: 100px;
-  margin-bottom: 200px;
+  margin-top: 10rem;
+  margin-bottom: 20rem;
 }
 
 a {
@@ -86,7 +86,7 @@ h4 {
 
 p {
   font-size: var(--p);
-  line-height: 25px;
+  line-height: 2.5rem;
 }
 
 img {
@@ -109,39 +109,39 @@ svg:hover {
 .button {
   border: none;
   background: var(--white-bg-primary);
-  border-radius: 10px;
-  padding: 15px 20px;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
   transition: 0.3s;
   cursor: pointer;
-  margin-top: 15px;
+  margin-top: 1.5rem;
 }
 
 .button-2 {
   border: none;
   background: #dfcee1;
-  border-radius: 10px;
-  padding: 15px 20px;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
   transition: 0.3s;
   cursor: pointer;
 }
 
 .card-container {
   display: flex;
-  gap: 30px;
+  gap: 3rem;
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 4rem;
   justify-content: center;
   align-items: center;
 }
 
-.card-container>* {
+.card-container > * {
   flex: 1;
-  min-width: 200px;
+  min-width: 20rem;
 }
 
 .card {
-  border-radius: 10px;
-  padding: 20px 28px 40px 28px;
+  border-radius: 1rem;
+  padding: 2rem 2.8rem 4rem 2.8rem;
   text-align: center;
 }
 
@@ -181,15 +181,15 @@ svg:hover {
 
 /* Header */
 header {
-  padding-top: 30px;
+  padding-top: 3rem;
 }
 
 .menu-container {
   position: relative;
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
-  padding: 20px;
+  margin-bottom: 2rem;
+  padding: 2rem;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -208,8 +208,8 @@ header {
 
 .menu-container input {
   display: block;
-  width: 35px;
-  height: 25px;
+  width: 3.5rem;
+  height: 2.5rem;
   margin: 0;
   position: absolute;
   cursor: pointer;
@@ -221,14 +221,14 @@ header {
 /* Burger menu */
 .menu-container span {
   display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
+  width: 3.3rem;
+  height: 0.4rem;
+  margin-bottom: 0.5rem;
   position: relative;
   background: var(--white-bg-primary);
-  border-radius: 3px;
+  border-radius: 0.3rem;
   z-index: 1;
-  transform-origin: 4px 0px;
+  transform-origin: 0.4rem 0rem;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
@@ -244,7 +244,7 @@ header {
 
 .menu-container input:checked ~ span {
   opacity: 1;
-  transform: rotate(45deg) translate(3px,-1px);
+  transform: rotate(45deg) translate(0.3rem,-0.1rem);
 }
 
 .menu-container input:checked ~ span:nth-child(4) {
@@ -253,7 +253,7 @@ header {
 }
 
 .menu-container input:checked ~ span:nth-child(3) {
-  transform: rotate(-45deg) translate(-5px,11px);
+  transform: rotate(-45deg) translate(-0.5rem,1.1rem);
 }
 
 .logo {
@@ -266,8 +266,8 @@ header {
 }
 
 .menu li {
-  padding: 10px 0;
-  font-size: 22px;
+  padding: 1rem 0;
+  font-size: 2.2rem;
 }
 
 
@@ -278,11 +278,11 @@ header {
 
 /* About Me */
 .about .card h2 {
-  padding: 8px 0;
+  padding: 0.8rem 0;
 }
 
 .about .card p {
-  padding: 20px 0;
+  padding: 2rem 0;
   width: clamp(45ch, 30%, 75ch);
   text-align: left;
   margin: 0 auto;
@@ -290,25 +290,25 @@ header {
 
 /* Skills */
 .about-2 {
-  width: 600px;
+  width: 60rem;
   margin: 0 auto;
 }
 
 .about .card {
-  padding-top: 20px;
-  padding-bottom: 100px;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
 }
 
 .about-2 svg {
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
   fill: var(--white-bg-off-primary);
   color: #5fb7ea;
 }
 
 .about-2 li {
   list-style-type: none;
-  padding: 20px 30px;
+  padding: 2rem 3rem;
 }
 
 .about-2 ul {
@@ -320,30 +320,30 @@ header {
 
 /* Projects */
 .projects .card {
-  box-shadow: rgba(161, 27, 148, 0.35) 0px 5px 15px;
+  box-shadow: rgba(161, 27, 148, 0.35) 0rem 0.5rem 1.5rem;
 }
 
 .projects .card h3 {
   font-weight: 500;
-  padding: 20px 10px;
+  padding: 2rem 1rem;
 }
 
 .projects .card .img {
   width: 100%;
-  padding: 20px 10px;
+  padding: 2rem 1rem;
   border-radius: 5%;
 }
 
 .projects a {
   display: inline-block;
-  padding: 0 15px 60px 0;
+  padding: 0 1.5rem 6rem 0;
 }
 
 .projects .card p {
   text-align: left;
 }
 .projects p:first-of-type {
-  padding-bottom: 15px;
+  padding-bottom: 1.5rem;
 }
 
 /* Blog */
@@ -351,11 +351,11 @@ header {
 .blog h1 {
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
 }
 
 .blog .img {
-  margin-top: 10px;
+  margin-top: 1rem;
   width: 70%;
   margin: 0 auto;
 }
@@ -367,12 +367,12 @@ header {
 }
 
 .blog .card h3 {
-  padding: 20px 0;
+  padding: 2rem 0;
 }
 
 .blog h3,
 .blog p {
-  padding: 15px;
+  padding: 1.5rem;
 }
 
 /* Contact */
@@ -390,9 +390,9 @@ header {
   background-color: #f2e4f7;
   /* Soft pinkish color for the form */
   padding: 5rem 2rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 500px;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+  max-width: 50rem;
   width: 100%;
 }
 
@@ -409,7 +409,7 @@ label {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: bold;
-  padding-top: 18px;
+  padding-top: 1.8rem;
 }
 
 input[type="text"],
@@ -417,8 +417,8 @@ input[type="email"],
 textarea {
   width: 80%;
   padding: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
 }
 
 input[type="text"]:focus,
@@ -440,28 +440,28 @@ textarea {
 }
 
 .footer h4:first-of-type {
-  padding-top: 15px;
+  padding-top: 1.5rem;
 }
 
 .footer h4+h4 {
-  padding: 5px 0 10px 0;
+  padding: 0.5rem 0 1rem 0;
   font-weight: 400;
   color:#777;
 }
 
 .footer img {
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
 }
 
 .footer ul {
-  padding: 20px 0;
+  padding: 2rem 0;
 }
 
 .footer li {
   display: inline;
   list-style-type: none;
-  padding-right: 10px;
+  padding-right: 1rem;
 
 }
 
@@ -471,13 +471,13 @@ textarea {
 
 /*! GENERAL STYLES */
 /******* General styles for all mobile styles *******/
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 76.7em) { 
   body{
     margin: 0;
   }
 
   .card {
-    margin: 0 25px;
+    margin: 0 2.5rem;
   }
 
   .menu-container {
@@ -488,14 +488,14 @@ textarea {
   .menu {
     position: absolute;
     box-sizing: border-box;
-    width: 300px;
-    right: -300px;
+    width: 30rem;
+    right: -30rem;
     top: 0;
-    margin: -20px;
-    padding: 75px 50px 50px;
+    margin: -2rem;
+    padding: 7.5rem 5rem 5rem;
     background: var(--white-bg-bg);
-    border: 3px solid #bbd8f8;
-    border-radius: 5px;
+    border: 0.3rem solid #bbd8f8;
+    border-radius: 0.5rem;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
     transform-origin: 0% 0%;
@@ -512,9 +512,9 @@ textarea {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 76.8rem and up) */
 /** FOR NAV **/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 76.8em) {
   .menu-container {
     width: 100%;
   }
@@ -545,13 +545,13 @@ textarea {
   }
 
   .menu li {
-    padding: 0 20px;
+    padding: 0 2rem;
   }
 }
 
 
-/****** Extra small devices (phones, 600px and down) ******/
-@media only screen and (max-width: 600px) {
+/****** Small devices (phones, 60rem and down) ******/
+@media only screen and (max-width: 60em) {
 
   /** General Styles **/
   section {
@@ -559,13 +559,13 @@ textarea {
   }
 
   .card {
-    padding: 20px 20px 40px 20px;
+    padding: 2rem 2rem 4rem 2rem;
   }
 
   /* Nav, changing the width */
   .menu {
-    width: 340px;
-    right: -340px;
+    width: 34rem;
+    right: -34rem;
   }
 
   /* Align clamped text to width of screen */
@@ -588,8 +588,8 @@ textarea {
   }
 
   .about-2 svg {
-    width: 45px;
-    height: 45px;
+    width: 4.5rem;
+    height: 4.5rem;
   }
 
   .about-2 li {
@@ -632,8 +632,8 @@ textarea {
 
   /** Footer **/
   .footer img {
-    width: 70px;
-    height: 70px;
+    width: 6rem;
+    height: 6rem;
   }
 }
 
@@ -642,23 +642,26 @@ textarea {
 /* todo: then for large and extra devices, check if there are any minor adjustments that we want to add */
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Small devices (portrait tablets and large phones, 60rem and up) */
+@media only screen and (min-width: 60em) {
+ 
+}
+
+/* Medium devices (landscape tablets, 76.8rem and up) */
+@media only screen and (min-width: 76.8em) {
+  /* body {
+    margin: 0 30rem;
+   } */
+}
+
+
+
+/* Large devices (laptops/desktops, 99.2rem and up) */
+/* @media only screen and (min-width: 99.2rem) {
   ...
-}
+} */
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
- . . .
-}
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* Extra large devices (large laptops and desktops, 120rem and up) */
+/* @media only screen and (min-width: 120rem) {
   ...
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  ...
-}
+} */
