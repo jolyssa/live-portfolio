@@ -506,8 +506,8 @@ textarea {
   }
 }
 
-/* Medium devices (landscape tablets, 76.8rem and up) */
-/** FOR NAV **/
+/* Medium devices (landscape tablets, 76.8em and up) */
+/*! FOR NAV OF LARGER DEVICES, DONT TOUCH! **/
 @media only screen and (min-width: 76.8em) {
   .menu-container {
     width: 100%;
@@ -543,8 +543,8 @@ textarea {
   }
 }
 
-
-/****** Small devices (phones, 60rem and down) ******/
+/*! Actual media queries start here */
+/****** Small devices (phones, 60em (600px) and down) ******/
 @media only screen and (max-width: 60em) {
 
   /** General Styles **/
@@ -636,24 +636,63 @@ textarea {
 /* todo: then for large and extra devices, check if there are any minor adjustments that we want to add */
 
 
-/* Small devices (portrait tablets and large phones, 60rem and up) */
-@media only screen and (min-width: 60em) {
- 
+/* Small devices (portrait tablets and large phones, 60em and up) */
+@media only screen and (min-width: 600px) {
+
+  /***** GENERAL STYLES *****/
+  .card-container {
+    flex-direction: column;
+  }
+  
+  /***** Home *****/
+  
+  /* Im Jolyssa section */
+  .home #firstCardHome {
+    width: 90%;
+    height: 100%;
+    /* border: 1px solid red; */
+    padding: 50% 0;
+  }
+
+  .home #firstCardHome h2 {
+    font-size: 6.5rem;
+  }
+
+  .home #firstCardHome h2 + h2{
+    padding-bottom: 1.5rem;
+  }
+
+  /* adjusting button size */
+  .home #firstCardHome .button {
+    font-size: 3rem;
+    padding: 3rem 4rem;
+  }
+
+  /***** About Me *****/
+
+
+  /***** Projects *****/
+
+
+  /***** Blog *****/
+
+
+  /***** Contact *****/
+  .contact .card-container {
+    flex-direction: row;
+  }
+
+  /***** Footer *****/
+
 }
 
-/* Medium devices (landscape tablets, 76.8rem and up) */
+/* Medium devices (landscape tablets, larger tablets, 76.8em and up) */
 @media only screen and (min-width: 76.8em) {
   /* body {
     margin: 0 30rem;
    } */
 }
 
-
-
-/* Large devices (laptops/desktops, 99.2rem and up) */
-/* @media only screen and (min-width: 99.2rem) {
-  ...
-} */
 
 /* Extra large devices (large laptops and desktops, 120rem and up) */
 /* @media only screen and (min-width: 120rem) {
