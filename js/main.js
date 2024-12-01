@@ -43,3 +43,12 @@ function erase(){
     }
 
     type()
+
+    function toggleMenu() {
+      let menu = document.querySelector('.menu');    
+      if(menu.style.display === "block") { // if is menu displayed, hide it
+        menu.style.display = "none";
+      } else { // if is menu hidden, display it
+        menu.style.display = "block";
+      }
+    }

@@ -483,6 +483,7 @@ textarea {
   }
 
   .menu {
+    display: none;
     position: absolute;
     box-sizing: border-box;
     width: 30rem;
