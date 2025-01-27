@@ -22,6 +22,6 @@ Take a look at these couple examples that I have in my own portfolio:
 
 Elephant Thoughts - Mistissini : https://mistissini.netlify.app/
 
-Moji Static Studios: https://mss-yellow-accents.pages.dev/
+Moji Static Studios: https://mojistaticstudios.com/
 
 BlackJack: https://blackjack-card.netlify.app/
