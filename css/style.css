@@ -315,9 +315,25 @@ header {
 }
 
 /* Projects */
+.projects .card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 4rem;
+  justify-content: center;
+}
+
 .projects .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   box-shadow: rgba(246, 239, 245, 0.35) 0rem 0.5rem 1.5rem;
   background: #dfe3f0;
+}
+
+/* For incomplete rows, center the cards */
+.projects .card-container:last-child {
+  grid-column-end: -1;
 }
 
 .projects .card h3 {
@@ -512,6 +528,10 @@ textarea {
   .menu-container input:checked~.menu {
     transform: translateX(-100%);
   }
+
+  .projects .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /*! FOR NAV OF LARGER DEVICES, DONT TOUCH! **/
@@ -605,9 +625,8 @@ textarea {
   }
 
   /** Projects **/
-  .projects .card .img {
-    padding: 0;
-    width: 107%;
+  .projects .card-container {
+    grid-template-columns: 1fr;
   }
 
   /** Blog **/
