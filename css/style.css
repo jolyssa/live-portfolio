@@ -488,7 +488,7 @@ textarea {
 
 /*! GENERAL STYLES for some media queries*/
 /******* General styles for all mobile styles *******/
-@media only screen and (max-width: 1079px) {
+@media only screen and (max-width: 1023px) {
   body {
     margin: 0;
   }
@@ -535,7 +535,7 @@ textarea {
 }
 
 /*! FOR NAV OF LARGER DEVICES, DONT TOUCH! **/
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1024px) {
   .menu-container {
     width: 100%;
   }
@@ -669,7 +669,7 @@ textarea {
 /*todo: make text bigger */
 /* todo: decrease size of hamburger menu */
 /* Medium devices (portrait tablets and large phones, 60em and up) */
-@media (min-width: 768px) and (max-width: 1080px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 
   /***** GENERAL STYLES *****/
   body {
@@ -762,8 +762,6 @@ textarea {
   }
 
   /***** Footer *****/
-
-
 
 }
 
